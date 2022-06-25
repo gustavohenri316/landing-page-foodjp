@@ -1,4 +1,6 @@
+import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
+import { SectionFive } from "./components/SectionFive"
 import { SectionFour } from "./components/SectionFour"
 import { SectionOne } from "./components/SectionOne"
 import { SectionTree } from "./components/SectionTree"
@@ -12,6 +14,8 @@ function App(){
       <SectionTwo/>
       <SectionTree/>
       <SectionFour/>
+      <SectionFive/>
+      <Footer/>
     </div>
   )
 }

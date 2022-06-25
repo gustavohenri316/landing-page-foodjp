@@ -1,4 +1,7 @@
 import { Pratos } from "./Pratos";
+import prato1 from '../assets/prato1.png'
+import prato2 from '../assets/prato2.png'
+import prato3 from '../assets/prato3.png'
 
 export function SectionTree() {
   return (
@@ -8,19 +11,19 @@ export function SectionTree() {
       </h1>
       <div className="flex justify-center  mt-[-50px] gap-[44px]">
         <Pratos 
-          image="/src/assets/prato1.png"
+          image={prato1}
           title="Ramen de Frango"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           price="R$ 30"
         />
         <Pratos 
-          image="/src/assets/prato2.png"
+          image={prato2}
           title="Ramen Apimentado"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           price="R$ 30"
         />
         <Pratos 
-          image="/src/assets/prato3.png"
+          image={prato3}
           title="Ramen Tradicional"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           price="R$ 30"

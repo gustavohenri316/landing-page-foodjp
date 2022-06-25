@@ -1,3 +1,4 @@
+import sushi from '../assets/sushi.png'
 export function SectionOne() {
   return (
     <div className="flex items-center justify-center gap-[308px] mt-36">
@@ -13,7 +14,7 @@ export function SectionOne() {
         </button>
       </div>
       <div>
-        <img src="/src/assets/sushi.png" alt="" />
+        <img src={sushi} alt="" />
       </div>
     </div>
 

@@ -3,7 +3,7 @@ import { Logo } from "./Logo";
 export function Header() {
   return (
     <div className="flex items-center justify-center  gap-[235px]  mt-[40px]">
-      <div>
+      <div className="cursor-pointer">
         <Logo/>
       </div>
       <div className="flex gap-[91px]">

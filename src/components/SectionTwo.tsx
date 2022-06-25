@@ -1,7 +1,8 @@
+import segurandoPrato from '../assets/segurandoPrato.png'
 export function SectionTwo() {
   return (
     <div className="flex items-center justify-center gap-[124px]">
-      <img src="/src/assets/segurandoPrato.png" alt="" />
+      <img src={segurandoPrato} alt="" />
       <div className="flex flex-col items-start">
         <h1 className="text-[#292929] text-5xl font-montserrat font-semibold w-[361px] h-[124px] leading-[64px] mb-6">
           Feita de forma Tradicional
